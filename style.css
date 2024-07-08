@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* -----container-design-start----- */
+.container{
+    min-height: 80vh;
+}
+/* -----container-design-end----- */
+
+/* -----row-design-start----- */
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+/* -----row-design-end----- */
+/* -----col-design-start----- */
+.col{
+    background-color: #fff;
+    width: 500px;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 20px 40px;
+}
+/* -----col-design-end----- */
+/* -----logo-section-design-start----- */
+.logo{
+    background-color: rgb(255, 0, 0);
+    padding: 10px 25px;
+    width: 100%;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* -----logo-section-design-end----- */
+
+/* -----logo-srection-design-start----- */
+.logo-section{
+    text-align: center;
+}
+/* -----logo-srection-design-end----- */
+/* -----form-design-start----- */
+form{
+    text-align: center;
+    margin-top: 35px;
+}
+/* -----form-design-end----- */
+/* -----form-items-design-start----- */
+.form-items{
+ display: flex;
+ justify-content: center;
+ width: 100%;
+ margin-top: 15px;
+}
+/* -----form-items-design-end----- */
+/* ------i-design-start------ */
+i{
+    width: 50px;
+    font-size: 10px;
+    padding: 12px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    text-align: center;
+}
+/* ------i-design-end------ */
+/* -----form-text-design-start----- */
+.form-text{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    color: #b62727;
+}
+/* -----form-text-design-end----- */
+/* -----form-text-(:focus)-design-start------ */
+.form-text:focus{
+    border: 3px solid rgb(255, 0, 0);
+}
+/* -----form-text-(:focus)-design-end------ */
+/* -----re-btn-design-start----- */
+.re-btn{
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+/* -----re-btn-design-end----- */
+/* -----submit-button-design-start----- */
+.button{
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    padding: 15px 20px ;
+    cursor: pointer;
+    color: #fff;
+    border:  none;
+    outline: none;
+    /* transition: all 0.5s ease-in-out; */
+    font-size: 18px;
+}
+/* -----submit-button-design-end----- */
+/* -----submit-button(:hover)-design-start----- */
+.button:hover{
+    background-color: rgb(201, 15, 15);
+}
+/* -----submit-button(:hover)-design-end----- */
+/* -----login-page-design-start----- */
+.login-page{
+    margin-bottom: 18px;
+}
+/* -----login-page-design-end----- */
+/* -----login-link-design-start----- */
+.login-link{
+    color: #ff0000;
+    margin-left: 5px;
+}
+/* -----login-link-design-end----- */
